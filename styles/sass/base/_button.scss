@@ -1,0 +1,28 @@
+%button {
+	all: unset;
+	box-sizing: border-box;
+	padding: 1.2rem 1.5rem;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	&:hover {
+		box-shadow: 0 0 20px grey;
+	}
+	&:active {
+		transform: scale(0.9);
+	}
+}
+
+.red-btn {
+	@extend %button;
+	background-color: #EE1B24;
+	color: white;
+}
+
+.tarnsparent-btn {
+	@extend %button;
+	padding: 1rem 3rem;
+	background-color: transparent;
+	color: black;
+	border: 2px black solid;
+}

@@ -1,0 +1,43 @@
+@media (max-width: 992px) {
+	#showcase {
+		img {
+			width: 451px;
+			height: 620px;
+		}
+		.container {
+			p {
+				font-size: 18px;
+			}
+			.tarnsparent-btn {
+				padding: 1rem 2rem;
+			}
+			.red-btn {
+				padding: 1.1rem 1rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	#showcase {
+		padding-top: 7rem !important;
+		img {
+			width: 240px;
+			height: 330px;
+		}
+		.container {
+			h2 {
+				font-size: 22px;
+			}
+			p {
+				font-size: 17px;
+			}
+			.tarnsparent-btn {
+				padding: 1rem 2rem;
+			}
+			.red-btn {
+				padding: 1.1rem 1rem;
+			}
+		}
+	}
+}

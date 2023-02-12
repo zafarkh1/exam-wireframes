@@ -1,0 +1,15 @@
+section#work {
+	background: #161A2B;
+	padding-block: 5rem;
+	.container {
+		.work-info {
+			span, h2 {
+				font-weight: 700;
+				font-size: 24px;
+			}
+			p {
+				margin-top: 1rem;
+			}
+		}
+	}
+}

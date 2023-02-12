@@ -1,0 +1,23 @@
+section#strength {
+	.container {
+		.row {
+			.col {
+				position: relative;
+				width: 580px;
+				height: 340px;
+				h3 {
+					font-weight: 700;
+					margin-left: 4rem;
+				}
+				p {
+					font-size: 24px;
+				}
+				img {
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+			}
+		}
+	}
+}

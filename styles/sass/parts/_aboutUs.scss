@@ -1,0 +1,22 @@
+section#aboutUs {
+	color: white;
+	background: url(../../../images/aboutUs.png) no-repeat right, #161A2B;
+	.container {
+		.row {
+			.aboutUs-text {
+				font-size: 18px;
+				p.pt-4 {
+					width: 450px;
+				}
+			}
+			.aboutUs-img {
+				padding-left: 14rem;
+				.square {
+					background-color: #161A2B;
+					width: 180px;
+					height: 180px;
+				}
+			}
+		}
+	}
+}

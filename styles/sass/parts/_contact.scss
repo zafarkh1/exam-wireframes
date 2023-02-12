@@ -1,0 +1,33 @@
+section#contact {
+	background: linear-gradient(rgba(22, 26, 43, 0.5)), url(../../../images/contact.png) no-repeat top / cover;
+	padding-block: 5rem;
+	.container {
+		.row {
+			.col {
+				.contact-text {
+					background: #F0F0F0;
+					font-size: 18px;
+				}
+				form {
+					padding-block: 8rem;
+					padding-inline: 3rem;
+					background-color: #161A2B;
+					input {
+						margin-top: 2.17rem;
+						border: none;
+						background-color: transparent;
+						border-bottom: 2px white solid;
+						padding-block: 1rem;
+					&#checkbox {
+						margin-right: 1rem;
+						color: #161A2B;
+					}
+				}
+					.tarnsparent-btn {
+						margin-inline: 5rem;
+					}
+				}
+			}
+		}
+	}
+}

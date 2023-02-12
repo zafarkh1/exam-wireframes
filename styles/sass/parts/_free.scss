@@ -1,0 +1,14 @@
+section#free {
+	padding-block: 5rem;
+	background-color: white;
+	.container {
+		form {
+					input.box {
+						border: none;
+						background-color: transparent;
+						border-bottom: 2px black solid;
+						width: 400px;
+				}
+			}
+	}
+}

@@ -1,0 +1,34 @@
+#review {
+	background: #F0F0F0;
+	padding-block: 5rem;
+	.container {
+		#carouselExampleIndicators {
+			i.fa-solid {
+				color: black;
+			}
+			padding-inline: 13rem;
+			.carousel-inner {
+				.carousel-item {
+					position: relative;
+					.review-title {
+						padding-left: 13rem;
+					}
+					p.mx-4 {
+						margin-top: 5rem;
+						margin-bottom: 5rem;
+					}
+					.review-man {
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+					.review-logo {
+						position: absolute;
+						bottom: 1rem;
+						right: 1rem;
+					}
+				}
+			}
+		}
+	}
+}
