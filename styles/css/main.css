@@ -286,4 +286,41 @@ footer#footer {
   #showcase .container .red-btn {
     padding: 1rem 1rem;
   }
+}
+@media (max-width: 400px) {
+  #showcase .container h2 {
+    font-size: 16px;
+  }
+  #showcase .container p {
+    font-size: 13px;
+  }
+  #showcase .container .tarnsparent-btn {
+    padding: 0.8rem 1.3rem;
+  }
+  #showcase .container .red-btn {
+    padding: 1rem 0.8rem;
+  }
+}
+@media (max-width: 330px) {
+  #showcase .container h2 {
+    font-size: 16px;
+  }
+  #showcase .container p {
+    font-size: 12px;
+  }
+  #showcase .container .mobile-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 6px !important;
+  }
+  #showcase .container .tarnsparent-btn {
+    font-size: 13px;
+    padding: 0.8rem 2rem;
+  }
+  #showcase .container .red-btn {
+    font-size: 13px;
+    padding: 1rem 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */

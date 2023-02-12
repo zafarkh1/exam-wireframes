@@ -94,3 +94,47 @@
 		}
 	}
 }
+
+@media (max-width: 400px) {
+	#showcase {
+		.container {
+			h2 {
+				font-size: 16px;
+			}
+			p {
+				font-size: 13px;
+			}
+			.tarnsparent-btn {
+				padding: 0.8rem 1.3rem;
+			}
+			.red-btn {
+				padding: 1rem 0.8rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 330px) {
+	#showcase {
+		.container {
+			h2 {
+				font-size: 16px;
+			}
+			p {
+				font-size: 12px;
+			}
+			.mobile-btn {
+				flex-direction: column;
+				gap: 6px !important;
+			}
+			.tarnsparent-btn {
+				font-size: 13px;
+				padding: 0.8rem 2rem;
+			}
+			.red-btn {
+				font-size: 13px;
+				padding: 1rem 2rem;
+			}
+		}
+	}
+}
