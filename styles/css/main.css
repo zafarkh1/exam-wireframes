@@ -264,24 +264,26 @@ footer#footer {
     padding: 1.1rem 1.4rem;
   }
 }
-@media (max-width: 546px) {
+@media (max-width: 440px) {
   #showcase {
     padding-top: 5rem !important;
   }
   #showcase img {
-    width: 230px;
-    height: 300px;
+    width: 290px;
+    height: 390px;
   }
   #showcase .container h2 {
-    font-size: 17px;
+    font-size: 18px;
   }
   #showcase .container p {
     font-size: 14px;
+    font-weight: 600;
+    margin-inline: 0.2rem;
   }
   #showcase .container .tarnsparent-btn {
-    padding: 0.7rem 1.3rem;
+    padding: 1rem 1.8rem;
   }
   #showcase .container .red-btn {
-    padding: 0.8rem 0.8rem;
+    padding: 1.1rem 1.4rem;
   }
 }/*# sourceMappingURL=main.css.map */
