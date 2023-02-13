@@ -59,7 +59,7 @@ section#showcase p {
   padding: 1rem 3rem;
   background-color: transparent;
   color: black;
-  border: 2px black solid;
+  border: 3px black solid;
 }
 
 #myNavbar {
@@ -85,7 +85,7 @@ section#aboutUs .container .row .aboutUs-img {
   padding-left: 14rem;
 }
 section#aboutUs .container .row .aboutUs-img .square {
-  background-color: #161A2B;
+  background-color: transparent;
   width: 180px;
   height: 180px;
 }
@@ -163,7 +163,7 @@ section#readers .container .row .col-3, section#readers .container .row .col-4 {
   padding-block: 5rem;
 }
 #review .container #carouselExampleIndicators {
-  padding-inline: 13rem;
+  padding-inline: 8rem;
 }
 #review .container #carouselExampleIndicators i.fa-solid {
   color: black;
@@ -173,6 +173,10 @@ section#readers .container .row .col-3, section#readers .container .row .col-4 {
 }
 #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title {
   padding-left: 13rem;
+}
+#review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title .mobile-review-name {
+  display: none;
+  font-weight: 700;
 }
 #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
   margin-top: 5rem;
@@ -188,6 +192,9 @@ section#readers .container .row .col-3, section#readers .container .row .col-4 {
   bottom: 1rem;
   right: 1rem;
 }
+#review .container #carouselExampleIndicators .mobile-review-btn-pre, #review .container #carouselExampleIndicators .mobile-review-btn-next {
+  display: none;
+}
 
 section#free {
   padding-block: 5rem;
@@ -199,12 +206,38 @@ section#free .container form input.box {
   border-bottom: 2px black solid;
   width: 400px;
 }
+section#free .container form .mobile-free-btn {
+  display: none;
+}
 
 footer#footer {
   background-color: #161A2B;
   font-size: 18px;
 }
 
+@media (max-width: 1200px) {
+  section#aboutUs {
+    color: white;
+    background: #161a2b;
+  }
+  section#aboutUs .container .row .aboutUs-text {
+    font-size: 18px;
+  }
+  section#aboutUs .container .row .aboutUs-text p.pt-4 {
+    width: 450px;
+  }
+  section#aboutUs .container .row .aboutUs-img {
+    padding-left: 14rem;
+  }
+  section#aboutUs .container .row .aboutUs-img .square {
+    background-color: #161a2b;
+    width: 180px;
+    height: 180px;
+  }
+  section#free .container form input.box {
+    width: 320px;
+  }
+}
 @media (max-width: 992px) {
   #showcase img {
     width: 451px;
@@ -218,6 +251,24 @@ footer#footer {
   }
   #showcase .container .red-btn {
     padding: 1.1rem 1rem;
+  }
+  #review .container #carouselExampleIndicators {
+    padding-inline: 6rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title {
+    padding-left: 13rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title h4 {
+    font-size: 20px;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title p {
+    font-size: 17px !important;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
+    font-size: 20px !important;
+  }
+  section#free .container form input.box {
+    width: 200px;
   }
 }
 @media (max-width: 768px) {
@@ -239,6 +290,42 @@ footer#footer {
   }
   #showcase .container .red-btn {
     padding: 1.1rem 1rem;
+  }
+  #review .container h2 {
+    font-size: 24px;
+  }
+  #review .container #carouselExampleIndicators {
+    padding-inline: 6rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title {
+    padding-left: 7rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title h4 {
+    font-size: 15px;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title p {
+    font-size: 14px !important;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
+    font-size: 14px !important;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-man {
+    width: 95px !important;
+    height: 110px !important;
+  }
+  section#free .container form input.box {
+    font-size: 15px;
+    width: 140px;
+  }
+  section#free .container form .tarnsparent-btn {
+    padding-inline: 2rem;
+    padding-block: 0.7rem;
+    font-size: 14px;
+  }
+  footer#footer .container .footer-contact {
+    display: none;
   }
 }
 @media (max-width: 576px) {
@@ -263,6 +350,122 @@ footer#footer {
   #showcase .container .red-btn {
     padding: 1.1rem 1.4rem;
   }
+  #review .container h2 {
+    font-size: 20px;
+  }
+  #review .container #carouselExampleIndicators {
+    padding-inline: 4rem;
+    padding-top: 2rem !important;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title {
+    padding-left: 7rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title h4 {
+    font-size: 15px;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title p {
+    font-size: 14px !important;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
+    font-size: 14px !important;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-man {
+    width: 95px !important;
+    height: 110px !important;
+  }
+  section#free .container form h4 {
+    line-height: 2rem;
+  }
+  section#free .container form input.box {
+    width: 230px;
+    font-size: 17px;
+    padding-bottom: 0.8rem;
+  }
+  section#free .container form .tarnsparent-btn {
+    display: none;
+  }
+  section#free .container form .mobile-free-btn {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  footer#footer .container .footer-contact {
+    display: block;
+  }
+  footer#footer .container .footer-contact .mobile-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media (max-width: 500px) {
+  section#free .container form h4 {
+    font-size: 18px;
+  }
+  section#free .container form .mobile-free-input {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+  }
+  section#free .container form input.box {
+    width: 90%;
+  }
+  section#free .container form .mobile-free-btn {
+    width: 80%;
+  }
+  #review .container {
+    position: relative;
+  }
+  #review .container h2 {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  #review .container #carouselExampleIndicators {
+    padding-inline: 5px;
+    padding-top: 2rem !important;
+  }
+  #review .container #carouselExampleIndicators i.fa-solid.pre {
+    position: absolute;
+    right: -10rem;
+    bottom: -3rem;
+    background-color: white;
+    padding: 5px 1.2rem;
+  }
+  #review .container #carouselExampleIndicators i.fa-solid.next {
+    position: absolute;
+    right: 8rem;
+    bottom: -3rem;
+    background-color: white;
+    padding: 5px 1.2rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title {
+    padding-left: 8rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
+    margin-top: 2rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-man {
+    width: 99px !important;
+    height: 100px !important;
+  }
+  #review .container #carouselExampleIndicators .carousel-control-prev.desktop,
+  #review .container #carouselExampleIndicators .carousel-control-next.desktop {
+    display: none;
+  }
+  #review .container #carouselExampleIndicators .mobile-review-btn-pre,
+  #review .container #carouselExampleIndicators .mobile-review-btn-next {
+    display: block;
+  }
 }
 @media (max-width: 440px) {
   #showcase {
@@ -286,6 +489,42 @@ footer#footer {
   #showcase .container .red-btn {
     padding: 1rem 1rem;
   }
+  #review {
+    padding-top: 2.5rem !important;
+  }
+  #review .container h2 {
+    font-size: 18px;
+  }
+  #review .container #carouselExampleIndicators {
+    padding-top: 1rem !important;
+  }
+  #review .container #carouselExampleIndicators i.fa-solid.pre {
+    right: -14.5rem;
+    bottom: -3.5rem;
+    padding: 5px 1.5rem;
+  }
+  #review .container #carouselExampleIndicators i.fa-solid.next {
+    right: 5px;
+    bottom: -3.5rem;
+    padding: 5px 1.5rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title {
+    padding-left: 7.5rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title .mobile-review-name {
+    display: block;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title h4.fw-bolder {
+    display: none;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-man {
+    width: 98px !important;
+    height: 90px !important;
+  }
 }
 @media (max-width: 400px) {
   #showcase .container h2 {
@@ -299,6 +538,46 @@ footer#footer {
   }
   #showcase .container .red-btn {
     padding: 1rem 0.8rem;
+  }
+  #review {
+    padding-top: 2.5rem !important;
+  }
+  #review .container h2 {
+    font-size: 18px;
+  }
+  #review .container #carouselExampleIndicators {
+    padding-top: 1rem !important;
+  }
+  #review .container #carouselExampleIndicators i.fa-solid.pre {
+    right: -14.5rem;
+    bottom: -3.5rem;
+    padding: 5px 1.5rem;
+  }
+  #review .container #carouselExampleIndicators i.fa-solid.next {
+    right: 5px;
+    bottom: -3.5rem;
+    padding: 5px 1.5rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title {
+    padding-left: 7.5rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title .mobile-review-name {
+    display: block;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-title h4.fw-bolder {
+    display: none;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-man {
+    width: 106px !important;
+    height: 109px !important;
+  }
+  section#free .container form .mobile-free-btn {
+    width: 85%;
+    padding-inline: 1.1rem;
   }
 }
 @media (max-width: 330px) {
@@ -322,5 +601,24 @@ footer#footer {
   #showcase .container .red-btn {
     font-size: 13px;
     padding: 1rem 2rem;
+  }
+  #review {
+    padding-top: 2.5rem !important;
+  }
+  #review .container h2 {
+    font-size: 16px;
+  }
+  #review .container #carouselExampleIndicators i.fa-solid.pre {
+    right: -8rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item p.mx-4 {
+    margin-top: 1rem;
+  }
+  #review .container #carouselExampleIndicators .carousel-inner .carousel-item .review-man {
+    width: 106px !important;
+    height: 136px !important;
+  }
+  footer#footer .container .footer-contact .mobile-footer {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */

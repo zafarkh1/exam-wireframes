@@ -1,140 +1,540 @@
+@media (max-width: 1200px) {
+  section#aboutUs {
+    color: white;
+    background: #161a2b;
+    .container {
+      .row {
+        .aboutUs-text {
+          font-size: 18px;
+          p.pt-4 {
+            width: 450px;
+          }
+        }
+        .aboutUs-img {
+          padding-left: 14rem;
+          .square {
+            background-color: #161a2b;
+            width: 180px;
+            height: 180px;
+          }
+        }
+      }
+    }
+  }
+
+  section#free {
+    .container {
+      form {
+        input.box {
+          width: 320px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 992px) {
-	#showcase {
-		img {
-			width: 451px;
-			height: 620px;
-		}
-		.container {
-			p {
-				font-size: 18px;
-			}
-			.tarnsparent-btn {
-				padding: 1rem 2rem;
-			}
-			.red-btn {
-				padding: 1.1rem 1rem;
-			}
-		}
-	}
+  #showcase {
+    img {
+      width: 451px;
+      height: 620px;
+    }
+    .container {
+      p {
+        font-size: 18px;
+      }
+      .tarnsparent-btn {
+        padding: 1rem 2rem;
+      }
+      .red-btn {
+        padding: 1.1rem 1rem;
+      }
+    }
+  }
+
+  #review {
+    .container {
+      #carouselExampleIndicators {
+        padding-inline: 6rem;
+        .carousel-inner {
+          .carousel-item {
+            .review-title {
+              padding-left: 13rem;
+              h4 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 17px !important;
+              }
+            }
+            p.mx-4 {
+              font-size: 20px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#free {
+    .container {
+      form {
+        input.box {
+          width: 200px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
-	#showcase {
-		padding-top: 7rem !important;
-		img {
-			width: 240px;
-			height: 330px;
-		}
-		.container {
-			h2 {
-				font-size: 22px;
-			}
-			p {
-				font-size: 17px;
-			}
-			.tarnsparent-btn {
-				padding: 1rem 2rem;
-			}
-			.red-btn {
-				padding: 1.1rem 1rem;
-			}
-		}
-	}
+  #showcase {
+    padding-top: 7rem !important;
+    img {
+      width: 240px;
+      height: 330px;
+    }
+    .container {
+      h2 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 17px;
+      }
+      .tarnsparent-btn {
+        padding: 1rem 2rem;
+      }
+      .red-btn {
+        padding: 1.1rem 1rem;
+      }
+    }
+  }
+
+  #review {
+    .container {
+      h2 {
+        font-size: 24px;
+      }
+      #carouselExampleIndicators {
+        padding-inline: 6rem;
+        .carousel-inner {
+          .carousel-item {
+            .review-title {
+              padding-left: 7rem;
+              h4 {
+                font-size: 15px;
+              }
+              p {
+                font-size: 14px !important;
+              }
+            }
+            p.mx-4 {
+              font-size: 14px !important;
+              margin-top: 2rem;
+              margin-bottom: 4rem;
+            }
+            .review-man {
+              width: 95px !important;
+              height: 110px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#free {
+    .container {
+      form {
+        input.box {
+          font-size: 15px;
+          width: 140px;
+        }
+        .tarnsparent-btn {
+          padding-inline: 2rem;
+          padding-block: 0.7rem;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  footer#footer {
+    .container {
+      .footer-contact {
+        display: none;
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
-	#showcase {
-		padding-top: 5rem !important;
-		img {
-			width: 290px;
-			height: 390px;
-		}
-		.container {
-			h2 {
-				font-size: 22px;
-				// width: 321px;
-			}
-			p {
-				font-size: 18px;
-				font-weight: 600;
-				margin-inline: 0.2rem;
-			}
-			.tarnsparent-btn {
-				padding: 1rem 1.8rem;
-			}
-			.red-btn {
-				padding: 1.1rem 1.4rem;
-			}
-		}
-	}
+  #showcase {
+    padding-top: 5rem !important;
+    img {
+      width: 290px;
+      height: 390px;
+    }
+    .container {
+      h2 {
+        font-size: 22px;
+        // width: 321px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 600;
+        margin-inline: 0.2rem;
+      }
+      .tarnsparent-btn {
+        padding: 1rem 1.8rem;
+      }
+      .red-btn {
+        padding: 1.1rem 1.4rem;
+      }
+    }
+  }
+
+  #review {
+    .container {
+      h2 {
+        font-size: 20px;
+      }
+      #carouselExampleIndicators {
+        padding-inline: 4rem;
+        padding-top: 2rem !important;
+        .carousel-inner {
+          .carousel-item {
+            .review-title {
+              padding-left: 7rem;
+              h4 {
+                font-size: 15px;
+              }
+              p {
+                font-size: 14px !important;
+              }
+            }
+            p.mx-4 {
+              font-size: 14px !important;
+              margin-top: 2rem;
+              margin-bottom: 4rem;
+            }
+            .review-man {
+              width: 95px !important;
+              height: 110px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#free {
+    .container {
+      form {
+        h4 {
+          line-height: 2rem;
+        }
+        input.box {
+          width: 230px;
+          font-size: 17px;
+          padding-bottom: 0.8rem;
+        }
+        .tarnsparent-btn {
+          display: none;
+        }
+        .mobile-free-btn {
+          display: block;
+          width: 50%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  footer#footer {
+    .container {
+      .footer-contact {
+        display: block;
+        .mobile-footer {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  section#free {
+    .container {
+      form {
+        h4 {
+          font-size: 18px;
+        }
+        .mobile-free-input {
+          display: flex !important;
+          flex-direction: column;
+          gap: 2rem;
+        }
+        input.box {
+          width: 90%;
+        }
+        .mobile-free-btn {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  #review {
+    .container {
+      h2 {
+        font-size: 20px;
+        margin-left: 5px;
+      }
+      position: relative;
+      #carouselExampleIndicators {
+        i.fa-solid.pre {
+          position: absolute;
+          right: -10rem;
+          bottom: -3rem;
+          background-color: white;
+          padding: 5px 1.2rem;
+        }
+        i.fa-solid.next {
+          position: absolute;
+          right: 8rem;
+          bottom: -3rem;
+          background-color: white;
+          padding: 5px 1.2rem;
+        }
+        padding-inline: 5px;
+        padding-top: 2rem !important;
+        .carousel-inner {
+          .carousel-item {
+            .review-title {
+              padding-left: 8rem;
+            }
+            p.mx-4 {
+              margin-top: 2rem;
+            }
+            .review-man {
+              width: 99px !important;
+              height: 100px !important;
+            }
+          }
+        }
+        .carousel-control-prev.desktop,
+        .carousel-control-next.desktop {
+          display: none;
+        }
+        .mobile-review-btn-pre,
+        .mobile-review-btn-next {
+          display: block;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 440px) {
-	#showcase {
-		padding-top: 5rem !important;
-		img {
-			width: 290px;
-			height: 390px;
-		}
-		.container {
-			h2 {
-				font-size: 18px;
-			}
-			p {
-				font-size: 14px;
-				font-weight: 600;
-				margin-inline: 0.2rem;
-			}
-			.tarnsparent-btn {
-				padding: 0.8rem 1.5rem;
-			}
-			.red-btn {
-				padding: 1rem 1rem;
-			}
-		}
-	}
+  #showcase {
+    padding-top: 5rem !important;
+    img {
+      width: 290px;
+      height: 390px;
+    }
+    .container {
+      h2 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 600;
+        margin-inline: 0.2rem;
+      }
+      .tarnsparent-btn {
+        padding: 0.8rem 1.5rem;
+      }
+      .red-btn {
+        padding: 1rem 1rem;
+      }
+    }
+  }
+
+  #review {
+    padding-top: 2.5rem !important;
+    .container {
+      h2 {
+        font-size: 18px;
+      }
+      #carouselExampleIndicators {
+        i.fa-solid.pre {
+          right: -14.5rem;
+          bottom: -3.5rem;
+          padding: 5px 1.5rem;
+        }
+        i.fa-solid.next {
+          right: 5px;
+          bottom: -3.5rem;
+          padding: 5px 1.5rem;
+        }
+        padding-top: 1rem !important;
+        .carousel-inner {
+          .carousel-item {
+            .review-title {
+              padding-left: 7.5rem;
+              .mobile-review-name {
+                display: block;
+              }
+              h4.fw-bolder {
+                display: none;
+              }
+            }
+            p.mx-4 {
+              margin-top: 1.5rem;
+              margin-bottom: 2rem;
+            }
+            .review-man {
+              width: 98px !important;
+              height: 90px !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 400px) {
-	#showcase {
-		.container {
-			h2 {
-				font-size: 16px;
-			}
-			p {
-				font-size: 13px;
-			}
-			.tarnsparent-btn {
-				padding: 0.8rem 1.3rem;
-			}
-			.red-btn {
-				padding: 1rem 0.8rem;
-			}
-		}
-	}
+  #showcase {
+    .container {
+      h2 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 13px;
+      }
+      .tarnsparent-btn {
+        padding: 0.8rem 1.3rem;
+      }
+      .red-btn {
+        padding: 1rem 0.8rem;
+      }
+    }
+  }
+
+  #review {
+    padding-top: 2.5rem !important;
+    .container {
+      h2 {
+        font-size: 18px;
+      }
+      #carouselExampleIndicators {
+        i.fa-solid.pre {
+          right: -14.5rem;
+          bottom: -3.5rem;
+          padding: 5px 1.5rem;
+        }
+        i.fa-solid.next {
+          right: 5px;
+          bottom: -3.5rem;
+          padding: 5px 1.5rem;
+        }
+        padding-top: 1rem !important;
+        .carousel-inner {
+          .carousel-item {
+            .review-title {
+              padding-left: 7.5rem;
+              .mobile-review-name {
+                display: block;
+              }
+              h4.fw-bolder {
+                display: none;
+              }
+            }
+            p.mx-4 {
+              margin-top: 1.5rem;
+              margin-bottom: 3rem;
+            }
+            .review-man {
+              width: 106px !important;
+              height: 109px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#free {
+    .container {
+      form {
+        .mobile-free-btn {
+          width: 85%;
+          padding-inline: 1.1rem;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 330px) {
-	#showcase {
-		.container {
-			h2 {
-				font-size: 16px;
-			}
-			p {
-				font-size: 12px;
-			}
-			.mobile-btn {
-				flex-direction: column;
-				gap: 6px !important;
-			}
-			.tarnsparent-btn {
-				font-size: 13px;
-				padding: 0.8rem 2rem;
-			}
-			.red-btn {
-				font-size: 13px;
-				padding: 1rem 2rem;
-			}
-		}
-	}
+  #showcase {
+    .container {
+      h2 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .mobile-btn {
+        flex-direction: column;
+        gap: 6px !important;
+      }
+      .tarnsparent-btn {
+        font-size: 13px;
+        padding: 0.8rem 2rem;
+      }
+      .red-btn {
+        font-size: 13px;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+
+  #review {
+    padding-top: 2.5rem !important;
+    .container {
+      h2 {
+        font-size: 16px;
+      }
+      #carouselExampleIndicators {
+        i.fa-solid.pre {
+          right: -8rem;
+        }
+        .carousel-inner {
+          .carousel-item {
+            p.mx-4 {
+              margin-top: 1rem;
+            }
+            .review-man {
+              width: 106px !important;
+              height: 136px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer#footer {
+    .container {
+      .footer-contact {
+        .mobile-footer {
+          font-size: 14px;
+        }
+      }
+    }
+  }
 }

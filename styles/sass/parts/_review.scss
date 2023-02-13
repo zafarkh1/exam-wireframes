@@ -6,12 +6,16 @@
 			i.fa-solid {
 				color: black;
 			}
-			padding-inline: 13rem;
+			padding-inline: 8rem;
 			.carousel-inner {
 				.carousel-item {
 					position: relative;
 					.review-title {
 						padding-left: 13rem;
+						.mobile-review-name {
+							display: none;
+							font-weight: 700;
+						}
 					}
 					p.mx-4 {
 						margin-top: 5rem;
@@ -28,6 +32,9 @@
 						right: 1rem;
 					}
 				}
+			}
+			.mobile-review-btn-pre, .mobile-review-btn-next {
+				display: none;
 			}
 		}
 	}
