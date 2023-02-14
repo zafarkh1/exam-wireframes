@@ -3,7 +3,11 @@ section#contact {
 	padding-block: 5rem;
 	.container {
 		.row {
-			.col {
+			.contact-height {
+				height: 800px;
+				background-color: #161A2B;
+			}
+			.col-lg-6 {
 				.contact-text {
 					background: #F0F0F0;
 					font-size: 18px;
@@ -11,7 +15,7 @@ section#contact {
 				form {
 					padding-block: 8rem;
 					padding-inline: 3rem;
-					background-color: #161A2B;
+					gap: 3rem;
 					input {
 						margin-top: 2.17rem;
 						border: none;

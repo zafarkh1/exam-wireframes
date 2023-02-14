@@ -113,27 +113,31 @@ section#contact {
   background: linear-gradient(rgba(22, 26, 43, 0.5)), url(../../../images/contact.png) no-repeat top/cover;
   padding-block: 5rem;
 }
-section#contact .container .row .col .contact-text {
+section#contact .container .row .contact-height {
+  height: 800px;
+  background-color: #161A2B;
+}
+section#contact .container .row .col-lg-6 .contact-text {
   background: #F0F0F0;
   font-size: 18px;
 }
-section#contact .container .row .col form {
+section#contact .container .row .col-lg-6 form {
   padding-block: 8rem;
   padding-inline: 3rem;
-  background-color: #161A2B;
+  gap: 3rem;
 }
-section#contact .container .row .col form input {
+section#contact .container .row .col-lg-6 form input {
   margin-top: 2.17rem;
   border: none;
   background-color: transparent;
   border-bottom: 2px white solid;
   padding-block: 1rem;
 }
-section#contact .container .row .col form input#checkbox {
+section#contact .container .row .col-lg-6 form input#checkbox {
   margin-right: 1rem;
   color: #161A2B;
 }
-section#contact .container .row .col form .tarnsparent-btn {
+section#contact .container .row .col-lg-6 form .tarnsparent-btn {
   margin-inline: 5rem;
 }
 
@@ -218,6 +222,14 @@ footer#footer {
   font-size: 18px;
 }
 
+@media (max-width: 1400px) {
+  section#contact .container .row .contact-height {
+    height: 880px;
+  }
+  section#contact .container .row .col-lg-6 form {
+    gap: 3.9rem;
+  }
+}
 @media (max-width: 1200px) {
   section#aboutUs {
     color: white;
@@ -237,6 +249,31 @@ footer#footer {
     width: 180px;
     height: 180px;
   }
+  section#contact {
+    padding-block: 5rem;
+  }
+  section#contact .container .row .contact-height {
+    height: 720px;
+  }
+  section#contact .container .row .col-lg-6 .contact-text {
+    font-size: 16px;
+  }
+  section#contact .container .row .col-lg-6 .contact-text p {
+    margin-block: 1px;
+  }
+  section#contact .container .row .col-lg-6 form {
+    padding-block: 6rem;
+    gap: 2.5rem;
+  }
+  section#contact .container .row .col-lg-6 form h4 {
+    font-size: 20px;
+  }
+  section#contact .container .row .col-lg-6 form input {
+    margin-top: 1rem;
+  }
+  section#contact .container .row .col-lg-6 form .tarnsparent-btn {
+    margin-inline: 2rem;
+  }
   section#free .container form input.box {
     width: 320px;
   }
@@ -254,6 +291,33 @@ footer#footer {
   }
   #showcase .container .red-btn {
     padding: 1.1rem 1rem;
+  }
+  section#contact {
+    padding-block: 3rem;
+  }
+  section#contact .container .row .contact-p-none {
+    display: none;
+  }
+  section#contact .container .row h2 {
+    font-size: 24px;
+  }
+  section#contact .container .row .contact-height {
+    height: 720px;
+  }
+  section#contact .container .row .col-lg-6 .contact-text {
+    font-size: 18px;
+  }
+  section#contact .container .row .col-lg-6 .contact-text br {
+    display: none;
+  }
+  section#contact .container .row .col-lg-6 .contact-text p {
+    margin-block: 1.4rem;
+  }
+  section#contact .container .row .col-lg-6 form .tarnsparent-btn {
+    margin-inline: 6rem;
+  }
+  section#work .container .work-info span, section#work .container .work-info h2 {
+    font-size: 22px;
   }
   section#readers .container .row .readers-none.col-md-4 {
     display: none;
@@ -296,6 +360,14 @@ footer#footer {
   }
   #showcase .container .red-btn {
     padding: 1.1rem 1rem;
+  }
+  section#work .container .work-info {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  section#work .container .work-info span, section#work .container .work-info h2 {
+    font-size: 22px;
   }
   section#readers .container {
     padding-block: 2rem !important;
@@ -369,6 +441,26 @@ footer#footer {
   #showcase .container .red-btn {
     padding: 1.1rem 1.4rem;
   }
+  section#work {
+    padding-block: 3rem;
+  }
+  section#work .container h2 {
+    font-size: 18px;
+    margin-bottom: 2rem !important;
+  }
+  section#work .container .work-info {
+    padding-inline: 3rem;
+    gap: 2rem;
+  }
+  section#work .container .work-info h2 {
+    margin-bottom: 1rem !important;
+  }
+  section#work .container .work-info span, section#work .container .work-info h2 {
+    font-size: 16px;
+  }
+  section#work .container .work-info p {
+    font-size: 14px;
+  }
   section#readers {
     padding-inline: 1rem;
   }
@@ -436,6 +528,23 @@ footer#footer {
   }
 }
 @media (max-width: 500px) {
+  section#work {
+    padding-block: 2rem;
+  }
+  section#work .container h2 {
+    font-size: 16px;
+    margin-bottom: 1rem !important;
+  }
+  section#work .container .work-info {
+    padding-inline: 5px;
+    gap: 2rem;
+  }
+  section#work .container .work-info span, section#work .container .work-info h2 {
+    font-size: 14px;
+  }
+  section#work .container .work-info p {
+    font-size: 12px;
+  }
   section#free .container form h4 {
     font-size: 18px;
   }

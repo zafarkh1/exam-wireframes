@@ -1,3 +1,20 @@
+@media (max-width: 1400px) {
+	section#contact {
+	.container {
+		.row {
+			.contact-height {
+				height: 880px;
+			}
+			.col-lg-6 {
+				form {
+					gap: 3.9rem;
+				}
+			}
+		}
+	}
+}
+}
+
 @media (max-width: 1200px) {
   section#aboutUs {
     color: white;
@@ -21,6 +38,38 @@
       }
     }
   }
+
+section#contact {
+	padding-block: 5rem;
+	.container {
+		.row {
+			.contact-height {
+				height: 720px;
+			}
+			.col-lg-6 {
+				.contact-text {
+					font-size: 16px;
+					p {
+						margin-block: 1px;
+					}
+				}
+				form {
+					padding-block: 6rem;
+					gap: 2.5rem;
+					h4 {
+						font-size: 20px;
+					}
+					input {
+						margin-top: 1rem;
+				}
+					.tarnsparent-btn {
+						margin-inline: 2rem;
+					}
+				}
+			}
+		}
+	}
+}
 
   section#free {
     .container {
@@ -51,6 +100,49 @@
       }
     }
   }
+
+section#contact {
+	padding-block: 3rem;
+	.container {
+		.row {
+			.contact-p-none {
+				display: none;
+			}
+			h2 {
+				font-size: 24px;
+			}
+			.contact-height {
+				height: 720px;
+			}
+			.col-lg-6 {
+				.contact-text {
+					br {
+						display: none;
+					}
+					font-size: 18px;
+					p {
+						margin-block: 1.4rem;
+					}
+				}
+				form {
+					.tarnsparent-btn {
+						margin-inline: 6rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+	section#work {
+	.container {
+		.work-info {
+			span, h2 {
+				font-size: 22px;
+			}
+		}
+	}
+}
 
 	section#readers {
 	.container {
@@ -119,6 +211,19 @@
       }
     }
   }
+
+	section#work {
+	.container {
+		.work-info {
+			display: grid !important;
+			grid-template-columns: 1fr 1fr;
+			gap: 3rem;
+			span, h2 {
+				font-size: 22px;
+			}
+		}
+	}
+}
 
 	section#readers {
 	.container {
@@ -222,6 +327,29 @@
     }
   }
 
+	section#work {
+	padding-block: 3rem;
+	.container {
+		h2 {
+			font-size: 18px;
+			margin-bottom: 2rem !important;
+		}
+		.work-info {
+			padding-inline: 3rem;
+			h2 {
+				margin-bottom: 1rem !important;
+			}
+			gap: 2rem;
+			span, h2 {
+				font-size: 16px;
+			}
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
 	section#readers {
 		padding-inline: 1rem;
 	.container {
@@ -311,6 +439,26 @@
 }
 
 @media (max-width: 500px) {
+	section#work {
+	padding-block: 2rem;
+	.container {
+		h2 {
+			font-size: 16px;
+			margin-bottom: 1rem !important;
+		}
+		.work-info {
+			padding-inline: 5px;
+			gap: 2rem;
+			span, h2 {
+				font-size: 14px;
+			}
+			p {
+				font-size: 12px;
+			}
+		}
+	}
+}
+
   section#free {
     .container {
       form {
