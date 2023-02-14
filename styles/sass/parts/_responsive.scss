@@ -52,6 +52,16 @@
     }
   }
 
+	section#readers {
+	.container {
+		.row {
+			.readers-none.col-md-4 {
+				display: none;
+			}
+		}
+	}
+}
+
   #review {
     .container {
       #carouselExampleIndicators {
@@ -109,6 +119,24 @@
       }
     }
   }
+
+	section#readers {
+	.container {
+		padding-block: 2rem !important;
+		h2 {
+			font-size: 18px;
+			margin-bottom: 1rem !important;
+		}
+		.row {
+			.mobile-none.col-md-3 {
+				display: none;
+			}
+				.padding {
+					padding-top: 2.5rem;
+				}
+		}
+	}
+}
 
   #review {
     .container {
@@ -193,6 +221,24 @@
       }
     }
   }
+
+	section#readers {
+		padding-inline: 1rem;
+	.container {
+		.row {
+			.readers-none.col-md-4.readers-block {
+				display: block;
+			}
+			.col-md-3, .col-md-4 {
+				padding-block: 1rem;
+				text-align: center;
+				}
+				.padding {
+					padding-top: 2.5rem;
+				}
+		}
+	}
+}
 
   #review {
     .container {

@@ -152,10 +152,13 @@ section#work .container .work-info p {
 section#readers {
   background-color: #E5E5E5;
 }
-section#readers .container .row .col-3, section#readers .container .row .col-4 {
+section#readers .container .row .col-md-3, section#readers .container .row .col-md-4 {
   border: 1px solid #f0f0f0;
-  padding-block: 2rem;
+  padding-block: 1rem;
   text-align: center;
+}
+section#readers .container .row .padding {
+  padding-top: 2.5rem;
 }
 
 #review {
@@ -252,6 +255,9 @@ footer#footer {
   #showcase .container .red-btn {
     padding: 1.1rem 1rem;
   }
+  section#readers .container .row .readers-none.col-md-4 {
+    display: none;
+  }
   #review .container #carouselExampleIndicators {
     padding-inline: 6rem;
   }
@@ -290,6 +296,19 @@ footer#footer {
   }
   #showcase .container .red-btn {
     padding: 1.1rem 1rem;
+  }
+  section#readers .container {
+    padding-block: 2rem !important;
+  }
+  section#readers .container h2 {
+    font-size: 18px;
+    margin-bottom: 1rem !important;
+  }
+  section#readers .container .row .mobile-none.col-md-3 {
+    display: none;
+  }
+  section#readers .container .row .padding {
+    padding-top: 2.5rem;
   }
   #review .container h2 {
     font-size: 24px;
@@ -349,6 +368,19 @@ footer#footer {
   }
   #showcase .container .red-btn {
     padding: 1.1rem 1.4rem;
+  }
+  section#readers {
+    padding-inline: 1rem;
+  }
+  section#readers .container .row .readers-none.col-md-4.readers-block {
+    display: block;
+  }
+  section#readers .container .row .col-md-3, section#readers .container .row .col-md-4 {
+    padding-block: 1rem;
+    text-align: center;
+  }
+  section#readers .container .row .padding {
+    padding-top: 2.5rem;
   }
   #review .container h2 {
     font-size: 20px;
