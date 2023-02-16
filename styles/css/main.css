@@ -517,7 +517,7 @@ footer#footer {
     border-bottom: 3px red solid;
   }
   section#contact .container .row h2 {
-    margin-left: 1rem;
+    padding-left: 2rem;
   }
   section#contact .container .row .mobile-contact-padding {
     padding-inline: 2rem !important;
