@@ -1,4 +1,4 @@
-@media (max-width: 1400px) {
+	@media (max-width: 1400px) {
 section#strength {
 	.container {
 		.row {
@@ -580,393 +580,393 @@ section#contact {
   }
 }
 
-@media (max-width: 500px) {
-section#strength {
-	.container {
-		.row {
-			.col {
-				height: 320px;
+	@media (max-width: 500px) {
+	section#strength {
+		.container {
+			.row {
+				.col {
+					height: 320px;
+				}
 			}
 		}
 	}
-}
 
-section#contact {
-	.container {
-		.row {
-			h2 {
-				margin-left: 1rem;
-			}
-			.mobile-contact-padding {
-				padding-inline: 2rem !important;
-			}
-			.contact-height {
-				height: 650px;
-				padding-inline: 0rem !important;
-			}
-			.col-lg-6 {
-				form {
-					padding-inline: 2rem;
-					.tarnsparent-btn {
-						margin-inline: 1rem;
-					}
-					h4 {
-						font-size: 15px;
-					}
-					input, p, a {
-						font-size: 15px;
+	section#contact {
+		.container {
+			.row {
+				h2 {
+					margin-left: 1rem;
+				}
+				.mobile-contact-padding {
+					padding-inline: 2rem !important;
+				}
+				.contact-height {
+					height: 650px;
+					padding-inline: 0rem !important;
+				}
+				.col-lg-6 {
+					form {
+						padding-inline: 2rem;
+						.tarnsparent-btn {
+							margin-inline: 1rem;
+						}
+						h4 {
+							font-size: 15px;
+						}
+						input, p, a {
+							font-size: 15px;
+						}
 					}
 				}
 			}
 		}
 	}
-}
 
-	section#work {
-	padding-block: 2rem;
-	.container {
-		h2 {
-			font-size: 16px;
-			margin-bottom: 1rem !important;
-		}
-		.work-info {
-			padding-inline: 5px;
-			gap: 2rem;
-			span, h2 {
-				font-size: 14px;
+		section#work {
+		padding-block: 2rem;
+		.container {
+			h2 {
+				font-size: 16px;
+				margin-bottom: 1rem !important;
 			}
-			p {
-				font-size: 12px;
-			}
-		}
-	}
-}
-
-  section#free {
-    .container {
-      form {
-        h4 {
-          font-size: 18px;
-        }
-        .mobile-free-input {
-          display: flex !important;
-          flex-direction: column;
-          gap: 2rem;
-        }
-        input.box {
-          width: 90%;
-        }
-        .mobile-free-btn {
-          width: 80%;
-        }
-      }
-    }
-  }
-
-  #review {
-    .container {
-      h2 {
-        font-size: 20px;
-        margin-left: 5px;
-      }
-      position: relative;
-      #carouselExampleIndicators {
-        i.fa-solid.pre {
-          position: absolute;
-          right: -10rem;
-          bottom: -3rem;
-          background-color: white;
-          padding: 5px 1.2rem;
-        }
-        i.fa-solid.next {
-          position: absolute;
-          right: 8rem;
-          bottom: -3rem;
-          background-color: white;
-          padding: 5px 1.2rem;
-        }
-        padding-inline: 5px;
-        padding-top: 2rem !important;
-        .carousel-inner {
-          .carousel-item {
-            .review-title {
-              padding-left: 8rem;
-            }
-            p.mx-4 {
-              margin-top: 2rem;
-            }
-            .review-man {
-              width: 99px !important;
-              height: 100px !important;
-            }
-          }
-        }
-        .carousel-control-prev.desktop,
-        .carousel-control-next.desktop {
-          display: none;
-        }
-        .mobile-review-btn-pre,
-        .mobile-review-btn-next {
-          display: block;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 440px) {
-  #showcase {
-    padding-top: 5rem !important;
-    img {
-      width: 290px;
-      height: 390px;
-    }
-    .container {
-      h2 {
-        font-size: 18px;
-      }
-      p {
-        font-size: 14px;
-        font-weight: 600;
-        margin-inline: 0.2rem;
-      }
-      .tarnsparent-btn {
-        padding: 0.8rem 1.5rem;
-      }
-      .red-btn {
-        padding: 1rem 1rem;
-      }
-    }
-  }
-
-section#strength {
-	.container {
-		gap: 2rem !important;
-		.row {
-			flex-direction: column !important;
-			gap: 2rem !important;
-			.col {
-				height: 260px;
-				h3 {
-					font-size: 15px;
-					padding-bottom: 1rem !important;
+			.work-info {
+				padding-inline: 5px;
+				gap: 2rem;
+				span, h2 {
+					font-size: 14px;
 				}
 				p {
-					margin-top: 0.5rem !important;
-				}
-				img {
-					width: 60px;
-					height: 55px;
+					font-size: 12px;
 				}
 			}
 		}
 	}
-}
 
+	  section#free {
+	    .container {
+	      form {
+	        h4 {
+	          font-size: 18px;
+	        }
+	        .mobile-free-input {
+	          display: flex !important;
+	          flex-direction: column;
+	          gap: 2rem;
+	        }
+	        input.box {
+	          width: 90%;
+	        }
+	        .mobile-free-btn {
+	          width: 80%;
+	        }
+	      }
+	    }
+	  }
 
-  #review {
-    padding-top: 2.5rem !important;
-    .container {
-      h2 {
-        font-size: 18px;
-      }
-      #carouselExampleIndicators {
-        i.fa-solid.pre {
-          right: -14.5rem;
-          bottom: -3.5rem;
-          padding: 5px 1.5rem;
-        }
-        i.fa-solid.next {
-          right: 5px;
-          bottom: -3.5rem;
-          padding: 5px 1.5rem;
-        }
-        padding-top: 1rem !important;
-        .carousel-inner {
-          .carousel-item {
-            .review-title {
-              padding-left: 7.5rem;
-              .mobile-review-name {
-                display: block;
-              }
-              h4.fw-bolder {
-                display: none;
-              }
-            }
-            p.mx-4 {
-              margin-top: 1.5rem;
-              margin-bottom: 2rem;
-            }
-            .review-man {
-              width: 98px !important;
-              height: 90px !important;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+	  #review {
+	    .container {
+	      h2 {
+	        font-size: 20px;
+	        margin-left: 5px;
+	      }
+	      position: relative;
+	      #carouselExampleIndicators {
+	        i.fa-solid.pre {
+	          position: absolute;
+	          right: -10rem;
+	          bottom: -3rem;
+	          background-color: white;
+	          padding: 5px 1.2rem;
+	        }
+	        i.fa-solid.next {
+	          position: absolute;
+	          right: 8rem;
+	          bottom: -3rem;
+	          background-color: white;
+	          padding: 5px 1.2rem;
+	        }
+	        padding-inline: 5px;
+	        padding-top: 2rem !important;
+	        .carousel-inner {
+	          .carousel-item {
+	            .review-title {
+	              padding-left: 8rem;
+	            }
+	            p.mx-4 {
+	              margin-top: 2rem;
+	            }
+	            .review-man {
+	              width: 99px !important;
+	              height: 100px !important;
+	            }
+	          }
+	        }
+	        .carousel-control-prev.desktop,
+	        .carousel-control-next.desktop {
+	          display: none;
+	        }
+	        .mobile-review-btn-pre,
+	        .mobile-review-btn-next {
+	          display: block;
+	        }
+	      }
+	    }
+	  }
+	}
 
-@media (max-width: 400px) {
-  #showcase {
-    .container {
-      h2 {
-        font-size: 16px;
-      }
-      p {
-        font-size: 13px;
-      }
-      .tarnsparent-btn {
-        padding: 0.8rem 1.3rem;
-      }
-      .red-btn {
-        padding: 1rem 0.8rem;
-      }
-    }
-  }
-	
-section#contact {
-	.container {
-		.row {
-			.col-lg-6 {
-				form {
-					.tarnsparent-btn {
-						margin-inline: 0.5rem;
-						padding: 1rem 1.5rem !important;
+	@media (max-width: 440px) {
+	  #showcase {
+	    padding-top: 5rem !important;
+	    img {
+	      width: 290px;
+	      height: 390px;
+	    }
+	    .container {
+	      h2 {
+	        font-size: 18px;
+	      }
+	      p {
+	        font-size: 14px;
+	        font-weight: 600;
+	        margin-inline: 0.2rem;
+	      }
+	      .tarnsparent-btn {
+	        padding: 0.8rem 1.5rem;
+	      }
+	      .red-btn {
+	        padding: 1rem 1rem;
+	      }
+	    }
+	  }
+
+	section#strength {
+		.container {
+			gap: 2rem !important;
+			.row {
+				flex-direction: column !important;
+				gap: 2rem !important;
+				.col {
+					height: 260px;
+					h3 {
+						font-size: 15px;
+						padding-bottom: 1rem !important;
+					}
+					p {
+						margin-top: 0.5rem !important;
+					}
+					img {
+						width: 60px;
+						height: 55px;
 					}
 				}
 			}
 		}
 	}
-}
 
-  #review {
-    padding-top: 2.5rem !important;
-    .container {
-      h2 {
-        font-size: 18px;
-      }
-      #carouselExampleIndicators {
-        i.fa-solid.pre {
-          right: -14.5rem;
-          bottom: -3.5rem;
-          padding: 5px 1.5rem;
-        }
-        i.fa-solid.next {
-          right: 5px;
-          bottom: -3.5rem;
-          padding: 5px 1.5rem;
-        }
-        padding-top: 1rem !important;
-        .carousel-inner {
-          .carousel-item {
-            .review-title {
-              padding-left: 7.5rem;
-              .mobile-review-name {
-                display: block;
-              }
-              h4.fw-bolder {
-                display: none;
-              }
-            }
-            p.mx-4 {
-              margin-top: 1.5rem;
-              margin-bottom: 3rem;
-            }
-            .review-man {
-              width: 106px !important;
-              height: 109px !important;
-            }
-          }
-        }
-      }
-    }
-  }
 
-  section#free {
-    .container {
-      form {
-        .mobile-free-btn {
-          width: 85%;
-          padding-inline: 1.1rem;
-        }
-      }
-    }
-  }
-}
+	  #review {
+	    padding-top: 2.5rem !important;
+	    .container {
+	      h2 {
+	        font-size: 18px;
+	      }
+	      #carouselExampleIndicators {
+	        i.fa-solid.pre {
+	          right: -14.5rem;
+	          bottom: -3.5rem;
+	          padding: 5px 1.5rem;
+	        }
+	        i.fa-solid.next {
+	          right: 5px;
+	          bottom: -3.5rem;
+	          padding: 5px 1.5rem;
+	        }
+	        padding-top: 1rem !important;
+	        .carousel-inner {
+	          .carousel-item {
+	            .review-title {
+	              padding-left: 7.5rem;
+	              .mobile-review-name {
+	                display: block;
+	              }
+	              h4.fw-bolder {
+	                display: none;
+	              }
+	            }
+	            p.mx-4 {
+	              margin-top: 1.5rem;
+	              margin-bottom: 2rem;
+	            }
+	            .review-man {
+	              width: 98px !important;
+	              height: 90px !important;
+	            }
+	          }
+	        }
+	      }
+	    }
+	  }
+	}
 
-@media (max-width: 330px) {
-  #showcase {
-    .container {
-      h2 {
-        font-size: 16px;
-      }
-      p {
-        font-size: 12px;
-      }
-      .mobile-btn {
-        flex-direction: column;
-        gap: 6px !important;
-      }
-      .tarnsparent-btn {
-        font-size: 13px;
-        padding: 0.8rem 2rem;
-      }
-      .red-btn {
-        font-size: 13px;
-        padding: 1rem 2rem;
-      }
-    }
-  }
-
-section#contact {
-	.container {
-		.row {
-			.col-lg-6 {
-				form {
-					.tarnsparent-btn {
-						padding: 1rem 0.4rem;
-						margin-inline: 0rem;
+	@media (max-width: 400px) {
+	  #showcase {
+	    .container {
+	      h2 {
+	        font-size: 16px;
+	      }
+	      p {
+	        font-size: 13px;
+	      }
+	      .tarnsparent-btn {
+	        padding: 0.8rem 1.3rem;
+	      }
+	      .red-btn {
+	        padding: 1rem 0.8rem;
+	      }
+	    }
+	  }
+		
+	section#contact {
+		.container {
+			.row {
+				.col-lg-6 {
+					form {
+						.tarnsparent-btn {
+							margin-inline: 0.5rem;
+							padding: 1rem 1.5rem !important;
+						}
 					}
 				}
 			}
 		}
 	}
-}
 
-  #review {
-    padding-top: 2.5rem !important;
-    .container {
-      h2 {
-        font-size: 16px;
-      }
-      #carouselExampleIndicators {
-        i.fa-solid.pre {
-          right: -8rem;
-        }
-        .carousel-inner {
-          .carousel-item {
-            p.mx-4 {
-              margin-top: 1rem;
-            }
-            .review-man {
-              width: 106px !important;
-              height: 136px !important;
-            }
-          }
-        }
-      }
-    }
-  }
+	  #review {
+	    padding-top: 2.5rem !important;
+	    .container {
+	      h2 {
+	        font-size: 18px;
+	      }
+	      #carouselExampleIndicators {
+	        i.fa-solid.pre {
+	          right: -14.5rem;
+	          bottom: -3.5rem;
+	          padding: 5px 1.5rem;
+	        }
+	        i.fa-solid.next {
+	          right: 5px;
+	          bottom: -3.5rem;
+	          padding: 5px 1.5rem;
+	        }
+	        padding-top: 1rem !important;
+	        .carousel-inner {
+	          .carousel-item {
+	            .review-title {
+	              padding-left: 7.5rem;
+	              .mobile-review-name {
+	                display: block;
+	              }
+	              h4.fw-bolder {
+	                display: none;
+	              }
+	            }
+	            p.mx-4 {
+	              margin-top: 1.5rem;
+	              margin-bottom: 3rem;
+	            }
+	            .review-man {
+	              width: 106px !important;
+	              height: 109px !important;
+	            }
+	          }
+	        }
+	      }
+	    }
+	  }
 
-  footer#footer {
-    .container {
-      .footer-contact {
-        .mobile-footer {
-          font-size: 14px;
-        }
-      }
-    }
-  }
-}
+	  section#free {
+	    .container {
+	      form {
+	        .mobile-free-btn {
+	          width: 85%;
+	          padding-inline: 1.1rem;
+	        }
+	      }
+	    }
+	  }
+	}
+
+	@media (max-width: 330px) {
+	  #showcase {
+	    .container {
+	      h2 {
+	        font-size: 16px;
+	      }
+	      p {
+	        font-size: 12px;
+	      }
+	      .mobile-btn {
+	        flex-direction: column;
+	        gap: 6px !important;
+	      }
+	      .tarnsparent-btn {
+	        font-size: 13px;
+	        padding: 0.8rem 2rem;
+	      }
+	      .red-btn {
+	        font-size: 13px;
+	        padding: 1rem 2rem;
+	      }
+	    }
+	  }
+
+	section#contact {
+		.container {
+			.row {
+				.col-lg-6 {
+					form {
+						.tarnsparent-btn {
+							padding: 1rem 0.4rem;
+							margin-inline: 0rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	  #review {
+	    padding-top: 2.5rem !important;
+	    .container {
+	      h2 {
+	        font-size: 16px;
+	      }
+	      #carouselExampleIndicators {
+	        i.fa-solid.pre {
+	          right: -8rem;
+	        }
+	        .carousel-inner {
+	          .carousel-item {
+	            p.mx-4 {
+	              margin-top: 1rem;
+	            }
+	            .review-man {
+	              width: 106px !important;
+	              height: 136px !important;
+	            }
+	          }
+	        }
+	      }
+	    }
+	  }
+
+	  footer#footer {
+	    .container {
+	      .footer-contact {
+	        .mobile-footer {
+	          font-size: 14px;
+	        }
+	      }
+	    }
+	  }
+	}

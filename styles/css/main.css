@@ -113,6 +113,9 @@ section#contact {
   background: linear-gradient(rgba(22, 26, 43, 0.5)), url(../../../images/contact.png) no-repeat top/cover;
   padding-block: 5rem;
 }
+section#contact .container .row h2 {
+  margin: 0 !important;
+}
 section#contact .container .row .contact-height {
   height: 800px;
   background-color: #161A2B;

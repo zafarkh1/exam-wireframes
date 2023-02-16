@@ -3,6 +3,9 @@ section#contact {
 	padding-block: 5rem;
 	.container {
 		.row {
+			h2 {
+				margin: 0 !important;
+			}
 			.contact-height {
 				height: 800px;
 				background-color: #161A2B;
