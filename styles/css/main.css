@@ -595,7 +595,7 @@ footer#footer {
   section#free .container form input.box {
     width: 230px;
     font-size: 17px;
-    padding-bottom: 0.8rem;
+    padding-block: 0.8rem;
   }
   section#free .container form .tarnsparent-btn {
     display: none;
